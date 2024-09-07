@@ -1,5 +1,5 @@
-package java_lab;
-
+package lab_exercise;
+import java.util.Scanner;
 public class FibonacciSeries {
 
 	    // Recursive function to find the nth Fibonacci number
@@ -13,12 +13,15 @@ public class FibonacciSeries {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=10;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number of terms:");
+		int n=sc.nextInt();
 		 System.out.println("Fibonacci series up to " + n + " terms:");
 
 	        for (int i = 0; i < n; i++) {
 	            System.out.print(fibonacci(i) + " ");
 	        }
+	        sc.close();
 	    }
 }
 

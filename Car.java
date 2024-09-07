@@ -1,4 +1,4 @@
-package java_lab;
+package lab_exercise;
 
 public class Car {
 	private String model;
